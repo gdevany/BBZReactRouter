@@ -7,8 +7,8 @@ const app = express();
 
 mongoose.set("debug", true);
 mongoose.Promise = global.Promise;
-mongoose.connect("mongodb://localhost/checkpoint2");
-// mongoose.connect("mongodb://gdevany:gdevany@ds133964.mlab.com:33964/bogobyzip");
+// mongoose.connect("mongodb://localhost/checkpoint2");
+mongoose.connect("mongodb://gdevany:gdevany@ds133964.mlab.com:33964/bogobyzip");
 
 
 app.use(bodyParser.json());
