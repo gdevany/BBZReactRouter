@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Risque';
+  font-size: 1.6em;
+  background-color: rgba(94, 65, 47, 0.5);
+  min-height: 800px;
+  background-size: 12% 100%;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.navbar-inverse, navbar {
+  background-color: #3f362a;
+  border: none;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #fef596;
+}
+
+a {
+  color: #78C0A8;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #fef596;
+}
