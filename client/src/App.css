@@ -11,17 +11,21 @@
   width: 100%;
 }
 
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
 input {
   width: 60%;
 }
 
 .offer {
-  font-size: 1.3em;
+  font-size: 1.3rem;
   background-color: #E6AC27;
   color: #3f362a;
   font-family: 'Luckiest Guy',cursive;
   text-decoration: blink;
-
   padding: 10px;
   border-radius: 10px;
   border-top: 1px solid black;
@@ -31,11 +35,11 @@ input {
 }
 
 .headingLogo {
-  line-height: 0.2em;
+  /* line-height: 0.2em; */
   font-family: 'Monoton';
-  font-size: 4em;
+  font-size: 4rem;
   color: #fef596;
-  margin-top: 30px;
+  margin-top: 20px;
   letter-spacing: 0.1em;
   text-shadow: -1px 0 black, 0 1px black,
       4px 0 black, 0 -1px black;
@@ -43,10 +47,10 @@ input {
 
 .headingLogoMini {
   font-family: 'Chicle', cursive;
-  font-size: 2em;
+  font-size: 2rem;
   /*color: #7b8859;*/
   color: #78C0A8;
-
+  margin-top: -50px;
   margin-bottom: 30px;
   font-weight: bold;
   text-shadow: -1px 0 black, 0 1px black,
@@ -54,24 +58,28 @@ input {
 }
 
 .bigText {
-  font-size: 1.2em;
+  font-size: 1.2rem;
 }
 
 .biggerText {
-  font-size: 1.4em;
+  font-size: 1.4rem;
 }
 
 .smallerText {
-  font-size: 0.8em;
+  font-size: 0.8rem;
 }
 
 .smallText {
-  font-size: 0.6em;
+  font-size: 0.6rem;
 }
 
 .tightLines {
   line-height: 0.1;
   margin-bottom: 5px;
+}
+
+.margTop {
+  margin-top: 10px;
 }
 
 .disclaimer {
@@ -92,12 +100,13 @@ input {
 .buttonGen {
   font-family: 'Luckiest Guy',cursive;
   color: #3f362a;
-
   max-width: 220px;
   background-color: #E6AC27;
   border-radius: 4px;
   margin: 10px 3vw;
   color: black;
+  font-size: 0.7rem;
+  cursor: pointer;
   padding: 10px 15px 0px 15px;
   border: 1px solid #5f3e29;
   box-shadow: inset 1px 1px 4px 0px white;
@@ -118,9 +127,10 @@ input {
   color: #F6F7BD;
   border-radius: 50%;
   background-color: #BF4D28;
-  font-size: 0.8em;
+  font-size: 0.8rem;
   margin: 25px;
   padding: 5px;
+  cursor: pointer;
 }
 
 .bizLogo {
@@ -137,6 +147,7 @@ input {
 .buttonDelete {
   background-color: red;
   color: white;
+  cursor: pointer;
 }
 
 .verticle {
@@ -162,7 +173,7 @@ strong {
   margin-top: 5px;
   margin-bottom: 20px;
   color: black;
-  font-size: 0.7em;
+  font-size: 0.7rem;
   width: 100%;
   padding: 1.5em 0em;
   /*box-shadow:inset 0px -3px 7px 0px #E6AC27;*/
