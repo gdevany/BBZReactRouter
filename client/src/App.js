@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
+import Header from "./components/Header.js";
 import ShowCouponDetail from "./containers/ShowCouponDetailContainer.js";
 import ShowCoupons from "./containers/ShowCouponsContainer.js";
 import CreateCouponContainer from "./containers/CreateCouponContainer.js";
@@ -19,6 +20,7 @@ class App extends Component {
     return (
       <BrowserRouter>
         <div>
+          <Header />
           <div className="container text-center">
             <div className="headingLogo">BOGO</div>
             <div className="headingLogoMini">by zip</div>

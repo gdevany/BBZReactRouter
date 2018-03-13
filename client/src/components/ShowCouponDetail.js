@@ -3,7 +3,6 @@ import {Link} from "react-router-dom";
 import PropTypes from "prop-types";
 
 
-
 function ShowCouponDetail(props) {
   window.scroll(0,0);
   const couponID = props.match.params.id;
