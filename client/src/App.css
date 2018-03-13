@@ -16,9 +16,9 @@
   margin-left: 0px;
 }
 
-input {
+/* input {
   width: 60%;
-}
+} */
 
 .offer {
   font-size: 1.3rem;
@@ -65,6 +65,10 @@ input {
   font-size: 1.4rem;
 }
 
+.normalText {
+  font-size: 1.0rem;
+}
+
 .smallerText {
   font-size: 0.8rem;
 }
@@ -76,6 +80,17 @@ input {
 .tightLines {
   line-height: 0.1;
   margin-bottom: 5px;
+}
+
+input {
+  width: 100px;
+  background-color: tan;
+  -webkit-transition: width .35s ease-in-out;
+  transition: width .35s ease-in-out;
+}
+input:focus {
+  background-color: white;
+  width: 400px;
 }
 
 .margTop {

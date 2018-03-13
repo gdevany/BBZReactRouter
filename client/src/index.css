@@ -3,8 +3,9 @@ body {
   padding: 0;
   font-family: 'Risque';
   font-size: 1.6em;
-  background-color: rgba(94, 65, 47, 0.5);
+  background-color: rgba(94, 65, 47, 0.2);
   min-height: 800px;
+  background-image: url("../images/Color1970s.png");
   background-size: 12% 100%;
   background-repeat: no-repeat;
   background-position: right;
